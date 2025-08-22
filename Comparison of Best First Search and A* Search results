@@ -1,0 +1,7 @@
+# AI-assignment-2
+""
+Best First Search is faster because it only looks at the heuristic (distance to the goal) and always tries to move closer. However, this can make it miss the real shortest path in some cases. It is greedy and only cares about the goal, not the actual cost of reaching there.
+
+On the other hand, A* Search checks both the distance already traveled and the distance left to reach the goal. This makes it a little slower than Best First Search, but it always gives the correct shortest path if one exists. In small grids both may give the same answer, but in bigger problems A* is more reliable while Best First is quicker but not always optimal.
+
+""
