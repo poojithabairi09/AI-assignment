@@ -88,3 +88,17 @@ for g in [g1,g2,g3]:
     print("A* len:",l2,"path:",p2)
     print()
 
+/*
+OUTPUTS:-
+Grid: [[0, 1], [1, 0]]
+BFS greedy len: 2 path: [(0, 0), (1, 1)]
+A* len: 2 path: [(0, 0), (1, 1)]
+
+Grid: [[0, 0, 0], [1, 1, 0], [1, 1, 0]]
+BFS greedy len: 4 path: [(0, 0), (0, 1), (1, 2), (2, 2)]
+A* len: 4 path: [(0, 0), (0, 1), (1, 2), (2, 2)]
+
+Grid: [[1, 0, 0], [1, 1, 0], [1, 1, 0]]
+BFS greedy len: -1 path: []
+A* len: -1 path: []
+*/
